@@ -7,4 +7,5 @@ services:
 
   listener:
     build: .
+    network_mode: host
     command: ros2 run demo_nodes_cpp listener
